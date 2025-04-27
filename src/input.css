@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import "tailwindcss";
+
+@import "flowbite/src/themes/default";
+
+@layer base {
+    * {
+        font-family: "Roboto Mono", monospace;
+        font-optical-sizing: auto;
+        font-style: normal;
+    }
+}
+
+@layer components {
+    .heading {
+        @apply text-5xl font-bold text-indigo-600;
+    }
+
+    .heading-line {
+        @apply w-[35px] h-[2px] bg-indigo-700 inline-block mr-3;
+    }
+}

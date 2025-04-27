@@ -1,0 +1,20 @@
+._*
+
+# Node modules (always ignore this for any Node.js project)
+node_modules/
+
+# Build output (if you're generating compiled CSS with Tailwind)
+build/
+public/build/
+
+# Tailwind CSS JIT cache (if using older versions or JIT mode manually)
+.tailwind-cache/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
